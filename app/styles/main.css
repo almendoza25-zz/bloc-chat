@@ -1,0 +1,14 @@
+body {
+    background-color: #DAF7A6;
+}
+
+.left-side-bar {
+  background-color: #FFC300;
+  width: 20%;
+  height: 100%;
+}
+
+.modal {
+  margin-top: 10px;
+  background-color: #FFC300;
+}

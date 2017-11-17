@@ -1,3 +1,5 @@
-<section class="room-content">
-    <span class="room-title" ng-repeat="allRoom in home.rooms"> {{ allRoom.$value }}</span>
-</section>
+<div class="left-side-bar">
+    <h1>Bloc Chat</h1>
+    <button type="button" ng-click="home.addRoom()">New Room</button>
+    <ul ng-repeat="allRoom in home.rooms">{{ allRoom.name }}</ul>
+</div>
