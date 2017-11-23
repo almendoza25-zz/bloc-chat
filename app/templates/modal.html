@@ -1,13 +1,15 @@
-<section class="modal">
-   <div class="header-modal">
-       <h1>Create Chat Room</h1>
-   </div>
-   <div class="body-modal">
-       <input type="text" placeholder="Enter Room Name" ng-model="modal.newRoom.name">
-   </div>
 
-   <div class="footer-modal">
-       <button class="modal-button" type="button" ng-click="modal.cancel()">Cancel</button>
-       <button class="modal-button" type="button" ng-click="modal.create()">Create Room</button>
-   </div>
+<section class="modal-box">
+    <div class="modal-header">
+        <h3 class="modal-title">Create Chat Room</h3>
+    </div>
+
+    <div class="modal-body">
+        <input type="text" placeholder="Enter Room Name" ng-model="modal.newRoom.name">
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" ng-click="modal.cancel()" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" ng-click="modal.create()">Create Room</button>
+    </div>
 </section>

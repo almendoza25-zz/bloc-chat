@@ -1,14 +1,24 @@
-body {
-    background-color: #DAF7A6;
+html {
+    height: 100%;
+    font-size: 100%;
 }
 
-.left-side-bar {
-  background-color: #FFC300;
-  width: 20%;
-  height: 100%;
+.left-sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    background-color: orange;
+    z-index: 1;
 }
 
-.modal {
-  margin-top: 10px;
-  background-color: #FFC300;
+.chat-area {
+    position: fixed;
+    top: 0px;
+    left: 250px;
+    width: 80%;
+    height: 100%;
+    background-color: lightgreen;
+    z-index: 1;
 }
