@@ -9,7 +9,6 @@
 </div>
 
 <div class="chat-area">
-
         <h2>{{ home.currentRoom.name }}</h2>
 
         <div ng-repeat="message in home.currentMessages">
@@ -18,4 +17,8 @@
             <p>{{ message.sentAt }}</p>
         </div>
 
+        <div class="message-input">
+            <input type="text" placeholder="Write your Message Here..." ng-model="home.newMessage.content">
+            <button type="button" class="btn btn-primary" ng-click="home.sendMessage()">Send</button>
+        </div>
 </div>
